@@ -1,0 +1,215 @@
+body{
+    background: blue;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cointeyner{
+    max-width: 1200px;
+    min-width: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul,ol{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+
+.site__main{
+    width: 2350px;
+    height:auto ;
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    grid-template-rows: repeat(1, 600px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    justify-self:center ;
+    gap: 20px;
+}
+
+.user{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 25px 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+    overflow-y: scroll; 
+}
+.user__list{
+    display: flex;
+    align-items: start ;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.user__item{
+    border-radius: 10px;
+    background: orange;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.user__top-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.user_id{
+    background: blue;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.user_title{
+    font-size: 24px;
+    font-weight: 600;
+    width: 170px;
+}
+.user_subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.user_email{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.post{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 25px 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+    overflow-y: scroll; 
+}
+.post__list{
+    display: flex;
+    align-items: start ;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.post__item{
+    border-radius: 10px;
+    background: orange;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+}
+.post__top-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.post_id{
+    background: blue;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.post_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.post_text{
+    font-size: larger;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.comment{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 25px 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+    overflow-y: scroll; 
+}
+.comment__list{
+    display: flex;
+    align-items: start ;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.comment__item{
+    border-radius: 10px;
+    background: orange;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+.comment__top-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.comment_id{
+    background: blue;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.comment_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.comment_email{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.comment_text{
+    font-size: 10px;
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
