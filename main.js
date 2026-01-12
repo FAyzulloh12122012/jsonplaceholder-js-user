@@ -48,8 +48,11 @@ function commentRender(item){
     }
 }
 
+
 elUserList.addEventListener('click', (evt) => {
-    if(evt.target.closest(".user__item")){
+    let card = evt.target.closest(".user__item")
+    
+    if(card) {
         let elUserId = evt.target.dataset.userId
 
         fetch(`https://jsonplaceholder.typicode.com/posts?userId=${elUserId}`)
